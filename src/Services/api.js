@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://67852c161ec630ca33a78e42.mockapi.io/",
+  baseURL: "https://679bfb4833d316846325ad17.mockapi.io/",
 });
 
 export const getVideos = async () => {

@@ -1,9 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import AppRoutes from "./routes.jsx";
+
 import { ThemeProvider } from "styled-components";
 import GlobalStyles from "./Styles/GlobalStyles.js";
 import theme from "./Styles/Theme.js";
+
+import AppRoutes from "./routes.jsx";
+
 import { VideoProvider } from "./Contexts/VideoContext.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(

@@ -9,7 +9,7 @@ const Home = () => {
   const { videos, loading } = useVideoContext();
 
   if (loading) {
-    return <div>Carregando...</div>;
+    return <div>Cargando...</div>;
   }
 
   const featuredVideo = videos[0];
