@@ -1,0 +1,117 @@
+
+/*
+/*
+.lty-playbtn { 
+  background: rgba(33, 33, 33);
+  border-radius: 50% / 10%;
+  color: #FFFFFF;
+  font-size: 5vw; /* Ajusta el tamaño de la fuente en función del tamaño de la ventana */
+  height: 10vw; /* Ajusta la altura según el ancho de la ventana */
+  margin: 20px auto;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  text-indent: 0.1em;
+  transition: all 150ms ease-out;
+  width: 15vw; /* Ajusta el ancho según el tamaño de la ventana */
+  opacity: 80%;
+}
+
+.lty-playbtn:hover {
+  background: darkorange;
+}
+
+.lty-playbtn::before { 
+  background: inherit;
+  border-radius: 5% / 50%;
+  bottom: 9%;
+  content: "";
+  left: -5%;
+  position: absolute;
+  right: -5%;
+  top: 9%;
+}
+
+.lty-playbtn::after {
+  border-style: solid;
+  border-width: 2vw 0 2vw 3.464vw; /* Usa unidades relativas para ajustar la proporción */
+  border-color: transparent transparent transparent rgba(255, 255, 255, 0.75);
+  content: ' ';
+  font-size: 2vw; /* Ajusta el tamaño del triángulo en función del tamaño de la ventana */
+  height: 0;
+  margin: -2vw 0 0 -1.5vw; /* Ajusta el margen para que el triángulo esté centrado */
+  top: 50%;
+  position: absolute;
+  width: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.play { 
+  background: red;
+  border-radius: 50% / 10%;
+  color: #FFFFFF;
+  font-size: 2em; /* change this to change size */
+  height: 3em;
+  margin: 20px auto;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  text-indent: 0.1em;
+  transition: all 150ms ease-out;
+  width: 4em;
+}
+
+.play:hover {
+  background: darkorange;
+}
+
+.play::before { 
+  background: inherit;
+  border-radius: 5% / 50%;
+  bottom: 9%;
+  content: "";
+  left: -5%;
+  position: absolute;
+  right: -5%;
+  top: 9%;
+}
+
+.play::after {
+  border-style: solid;
+  border-width: 1em 0 1em 1.732em;
+  border-color: transparent transparent transparent rgba(255, 255, 255, 0.75);
+  content: ' ';
+  font-size: 0.75em;
+  height: 0;
+  margin: -1em 0 0 -0.75em;
+  top: 50%;
+  position: absolute;
+  width: 0;
+}
+*/
+*/
